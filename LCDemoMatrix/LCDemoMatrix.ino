@@ -10,7 +10,8 @@
  We have only a single MAX72XX.
  */
  /* ADK  50 (MISO), 51 (MOSI), 52 (SCK), 53 (SS) */
-LedControl lc=LedControl(12,11,10,1);
+//LedControl lc=LedControl(12,11,10,1);
+LedControl lc=LedControl(51,52,53,1);
 
 /* we always wait a bit between updates of the display */
 unsigned long delaytime=100;
